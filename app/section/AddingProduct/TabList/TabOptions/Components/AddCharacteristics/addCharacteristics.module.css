@@ -1,0 +1,78 @@
+.form {
+  height: 100%;
+}
+.container {
+  position: relative;
+}
+.drawer {
+  display: grid;
+  grid-template-rows: 1fr 60px;
+  height: 100%;
+}
+.closeIcon.closeIcon {
+  position: absolute;
+  top: 10px;
+  right: 16px;
+  padding: 0;
+  z-index: 100;
+}
+
+.labelTitle {
+  margin-top: 16px;
+}
+.itemSelect {
+  width: 100%;
+  font-weight: 600;
+}
+
+.itemSelect svg {
+  margin-right: 8px;
+  fill: var(--color-text-primary);
+  transition: fill ease-in-out 0.3s;
+}
+.itemSelect:hover svg {
+  fill: var(--color-primary-hover);
+}
+
+/* Button */
+.buttonWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.button svg {
+  transition: fill 0.3s;
+}
+.button:hover svg {
+  fill: var(--color-primary-hover);
+}
+
+/* Add value */
+.valueTitle {
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.valueCount {
+  color: var(--color-neutral-secondary);
+  margin-left: 4px;
+}
+
+.addValueButton {
+  display: flex;
+  justify-content: center;
+}
+.addValueButton button {
+  display: flex;
+  column-gap: 8px;
+  align-items: center;
+}
+
+.saveButton.saveButton {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+}

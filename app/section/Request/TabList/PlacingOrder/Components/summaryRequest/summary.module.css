@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  background: var(--color-smoke);
+  padding: 20px 45px 20px 16px;
+  border-radius: 0 0 8px 8px;
+}
+.info {
+  display: flex;
+  column-gap: 16px;
+}
+.summ {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}

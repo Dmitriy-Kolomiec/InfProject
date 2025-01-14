@@ -1,0 +1,37 @@
+.container {
+  display: grid;
+  grid-template-columns: 272px 1fr;
+  column-gap: 16px;
+}
+/* sidebar */
+.link.link {
+  height: 48px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--color-text-primary);
+  font-size: 18px;
+  font-weight: 600;
+}
+.active.active {
+  background-color: #fff3f2;
+  color: var(--color-primary-hover);
+}
+.active svg {
+  fill: var(--color-primary-hover);
+}
+.button svg {
+  transition: fill ease-in-out 0.3s;
+}
+.button:hover svg {
+  fill: var(--color-primary-hover);
+}
+/* Content */
+.title {
+  margin-bottom: 24px;
+}
+.detailText {
+  line-height: 24px;
+}

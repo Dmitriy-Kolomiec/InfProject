@@ -1,0 +1,10 @@
+/* Pagination */
+.pagination.pagination {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+.labelSelect {
+  color: var(--color-text-neutral);
+  margin-right: 8px;
+}

@@ -1,0 +1,24 @@
+.labelBlock {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.label {
+  font-size: 13px;
+  font-weight: 500;
+}
+.numLetters {
+  color: var(--color-neutral-secondary);
+  font-size: 13px;
+  font-weight: 500;
+}
+.disabledCount {
+  color: var(--color-primary-hover);
+}
+.textArea label {
+  width: 100%;
+}
+.textArea textarea {
+  min-height: 100px;
+}

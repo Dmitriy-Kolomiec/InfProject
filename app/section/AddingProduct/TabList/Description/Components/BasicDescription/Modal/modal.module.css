@@ -1,0 +1,38 @@
+.title {
+  margin-bottom: 16px;
+  width: 100%;
+}
+.label {
+  font-size: 13px;
+  font-weight: 500;
+}
+.input input {
+  height: 40px;
+}
+.textArea textarea {
+  min-height: 100px;
+}
+.textArea label {
+  width: 100%;
+}
+.labelBlock {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.numLetters {
+  color: var(--color-neutral-secondary);
+  font-size: 13px;
+  font-weight: 500;
+}
+.disabledCount {
+  color: var(--color-primary-hover);
+}
+.buttonWrapper {
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 16px;
+}
+.buttonWrapper button {
+  height: 40px;
+}

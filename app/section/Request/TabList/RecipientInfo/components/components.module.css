@@ -1,0 +1,51 @@
+.block {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+}
+.neutralText {
+  font-size: 13px;
+  color: var(--color-text-neutral);
+}
+.buttonWrapper {
+  margin: 16px 0;
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+.button.button {
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+  border-color: var(--color-border);
+}
+.button svg {
+  transition: fill ease-in-out 0.3s;
+}
+.button:hover svg {
+  fill: var(--color-primary-hover);
+}
+.saveButton.saveButton {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.buttonsModal {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  column-gap: 16px;
+  margin-top: 16px;
+}
+.subtitle {
+  font-size: 13px;
+  color: var(--color-neutral-secondary);
+  line-height: 1.6;
+}
+.nameCategory {
+  font-weight: 600;
+  margin-bottom: 16px;
+}

@@ -1,0 +1,28 @@
+.list {
+  display: grid;
+  row-gap: 16px;
+  margin-bottom: 24px;
+}
+.list button {
+  height: 40px;
+}
+.title {
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 8px;
+}
+.list button {
+  margin-top: 8px;
+}
+.text {
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.deleteIcon {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: -25px;
+  right: 8px;
+}

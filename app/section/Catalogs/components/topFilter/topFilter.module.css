@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 16px;
+}
+.switchBlock {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 4px;
+  border: 1px solid var(--color-primary);
+  width: 78px;
+  height: 40px;
+  padding: 3px;
+  border-radius: 6px;
+}
+.activeButton.activeButton {
+  background-color: #182f35;
+}
+.activeButton:hover {
+  background-color: #182f35 !important;
+}
+.button.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  width: 34px;
+  height: 34px;
+  border: none;
+}
+.button svg {
+  fill: var(--color-text-primary);
+}
+.activeButton svg {
+  fill: #ffffff;
+}
+.switch {
+  width: 100%;
+  height: 100% !important;
+}
+.radioGroup.radioGroup {
+  margin-left: 24px;
+}
+.countFilter {
+  padding: 0 3px;
+  margin-left: 8px;
+  min-width: 24px;
+  height: 25px;
+  border-radius: 16px;
+  border: 1px solid var(--color-border);
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  background-color: var(--color-bg-neutral);
+  color: var(--color-text-primary) !important;
+}
+.filterButton {
+  display: flex;
+}

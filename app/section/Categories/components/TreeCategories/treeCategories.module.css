@@ -1,0 +1,79 @@
+.tree {
+  width: 100%;
+}
+.container {
+  margin-top: 16px;
+}
+.title {
+  font-weight: 600;
+}
+.flexContainer {
+  min-width: 200px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 4px;
+  padding: 0 8px;
+}
+.titleRender {
+  display: flex;
+  column-gap: 4px;
+}
+.title {
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+}
+.lastTreeNode {
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+  font-size: 15px;
+}
+.lastTreeNode .count {
+  margin-top: 4px;
+  text-decoration: none !important;
+}
+.count {
+  height: 100%;
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--color-text-neutral);
+  margin-left: 4px;
+  text-decoration: none !important;
+}
+.buttonAddCategory.buttonAddCategory,
+.buttonAddSubCategory.buttonAddSubCategory {
+  font-weight: 400;
+  color: var(--color-primary);
+  display: flex;
+  column-gap: 4px;
+  padding-top: 0px;
+}
+.buttonAddSubCategory.buttonAddSubCategory {
+  padding-left: 0;
+}
+.buttonAddCategory svg {
+  fill: var(--color-primary);
+}
+.buttonSave {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.interactiveButtons {
+  visibility: hidden;
+}
+.row:hover .interactiveButtons {
+  visibility: visible;
+}
+.row:hover {
+  background-color: var(--color-bg-hover);
+}

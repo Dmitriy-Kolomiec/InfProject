@@ -1,0 +1,20 @@
+.productsList {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 345px);
+  column-gap: 8px;
+  row-gap: 8px;
+}
+.pagination.pagination {
+  margin-top: 24px;
+}
+
+.select {
+  position: absolute;
+  bottom: 18px;
+  right: 22px;
+}
+.labelSelect {
+  color: var(--color-text-neutral);
+  margin-right: 8px;
+}

@@ -1,0 +1,40 @@
+.mainImage {
+  position: relative;
+  width: 610px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button.button {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.prevSlide.prevSlide {
+  top: 230px;
+  left: 0;
+}
+.nextSlide.nextSlide {
+  top: 230px;
+  right: 0;
+}
+.propertyContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+.property {
+  display: flex;
+  align-items: center;
+  height: 24px;
+  border-radius: 16px;
+  border: 1px solid var(--color-border);
+  padding: 4px 8px;
+  column-gap: 4px;
+  font-weight: 500;
+  font-size: 13px;
+}

@@ -1,0 +1,35 @@
+.titleModal {
+  font-size: 20px;
+  font-weight: 600;
+  width: 400px;
+  margin-bottom: 16px;
+}
+.buttonModal {
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 20px;
+  align-items: center;
+  margin-top: 16px;
+}
+.buttonModal button {
+  min-width: 86px;
+  height: 40px;
+}
+.notification {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+  padding: 0 !important;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-text-neutral);
+  height: 100%;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  padding: 0;
+  width: 40px;
+}

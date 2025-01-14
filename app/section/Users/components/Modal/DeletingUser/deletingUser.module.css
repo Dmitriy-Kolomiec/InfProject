@@ -1,0 +1,19 @@
+.deleteModal {
+  color: var(--color-text-primary);
+}
+.title {
+  margin-top: 8px;
+}
+.listRoles {
+  margin-left: 20px;
+}
+.listRoles li {
+  list-style: disc;
+}
+.buttonWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  column-gap: 16px;
+  margin-top: 16px;
+}

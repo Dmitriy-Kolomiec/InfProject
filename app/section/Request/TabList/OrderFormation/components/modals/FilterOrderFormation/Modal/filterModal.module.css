@@ -1,0 +1,72 @@
+.selectBlock {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+}
+.group {
+  display: flex;
+  column-gap: 8px;
+  justify-content: space-between;
+}
+.group .select,
+.group .input {
+  width: 212px;
+}
+.priceEnd.priceEnd {
+  width: 212px;
+  margin-top: 31px;
+}
+.button.button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  margin-top: 100px;
+}
+.tags {
+  margin-bottom: 8px;
+}
+.tag.tag {
+  display: inline-flex;
+  align-items: center;
+  height: 24px;
+  border-radius: 16px;
+  border-color: var(--color-border);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16px;
+  color: var(--color-text-primary);
+  background: var(--color-bg-neutral);
+  cursor: pointer;
+  margin: 4px;
+}
+.clearAll.clearAll {
+  cursor: pointer;
+  background: transparent;
+}
+.clearAll:hover {
+  color: var(--color-primary-hover);
+}
+.clearTagsSelect.clearTagsSelect {
+  position: absolute;
+  right: 32px;
+  top: 5px;
+  cursor: default;
+}
+.countTags {
+  color: var(--color-text-primary);
+  margin-left: 4px;
+}
+.clearTagsButton.clearTagsButton {
+  display: flex;
+  align-items: center;
+  border: none;
+  background: transparent;
+  padding: 0;
+  width: 22px;
+  height: 22px;
+}
+
+.divider.divider {
+  margin: 12px 0 8px 0;
+}

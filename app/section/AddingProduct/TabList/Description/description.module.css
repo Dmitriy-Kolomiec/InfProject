@@ -1,0 +1,19 @@
+.buttonWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 12px;
+  height: 40px;
+  margin-top: 16px;
+}
+.buttonWrapper .button {
+  border-radius: 4px;
+  width: 147px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button svg {
+  fill: #ffffff;
+}

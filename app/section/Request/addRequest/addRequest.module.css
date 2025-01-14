@@ -1,0 +1,80 @@
+.pageTop {
+  display: flex;
+  justify-content: space-between;
+}
+.buttonWrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+}
+.buttonWrapper button {
+  height: 40px;
+}
+.buttonWrapper svg:not(:first-child) {
+  fill: #ffffff;
+}
+.tabContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+}
+.requestInfo {
+  display: flex;
+  column-gap: 16px;
+}
+
+.buttonDropdown {
+  color: #ff3f33;
+}
+.buttonDropdown:hover {
+  color: #ff3f33 !important;
+}
+.dropdown {
+  transform: rotate(90deg);
+}
+.totalPrice span:last-child {
+  font-weight: 600;
+}
+.disabledIcon.disabledIcon svg {
+  fill: rgba(0, 0, 0, 0.25);
+}
+.disabledIcon:hover svg {
+  fill: #ffffff;
+}
+
+@media screen and (max-width: 950px) {
+  .totalPrice {
+    font-size: 14px;
+  }
+  .tabList {
+    column-gap: 10px;
+  }
+  .tabLink {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 865px) {
+  .totalPrice {
+    display: flex;
+    flex-direction: column;
+  }
+  .tabList {
+    padding: 10px 20px;
+  }
+  .tabLink {
+    width: 140px;
+  }
+  .active::after {
+    bottom: -12px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .totalPrice {
+    font-size: 14px;
+  }
+  .tabLink {
+    width: 120px;
+  }
+}

@@ -1,0 +1,44 @@
+.noRelations {
+  min-height: 442px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.noRelations div {
+  text-align: center;
+  max-width: 421px;
+}
+.text {
+  margin-top: 8px;
+}
+.buttonWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+.rightBlockBtn {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+}
+.button svg {
+  transition: fill 0.3s;
+}
+.button:hover svg {
+  fill: var(--color-primary-hover);
+}
+.button.button svg {
+  fill: #ffffff;
+}
+.addValueButton {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.addValueButton button {
+  display: flex;
+  column-gap: 8px;
+  align-items: center;
+}

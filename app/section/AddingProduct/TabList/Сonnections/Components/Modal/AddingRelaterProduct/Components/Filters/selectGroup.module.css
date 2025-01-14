@@ -1,0 +1,9 @@
+.form.form {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 16px;
+  align-items: center;
+}
+.categoryTreeButton {
+  margin-top: 14px;
+}

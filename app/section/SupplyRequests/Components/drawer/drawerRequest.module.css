@@ -1,0 +1,28 @@
+.statusReq {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.status {
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+  width: 216px;
+}
+.status span:first-child {
+  color: var(--color-text-neutral);
+  font-size: 13px;
+}
+.saveButton.saveButton {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+}
+.title {
+  margin-bottom: 16px;
+}
+.warehouseAddress {
+  min-height: 100px;
+}

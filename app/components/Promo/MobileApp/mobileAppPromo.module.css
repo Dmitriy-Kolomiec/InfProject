@@ -1,0 +1,37 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-height: 400px;
+  overflow: hidden;
+  background: var(--color-bg-hover);
+}
+.content {
+  margin-top: 70px;
+  margin-left: 68px;
+  max-width: 357px;
+}
+.title {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.25;
+}
+.stores {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+.qrCode {
+  align-self: center;
+  border-radius: 8px;
+}
+@media screen and (max-width: 1380px) {
+  .content {
+    margin-left: 30px;
+  }
+  .stores {
+    margin-top: 20px;
+    flex-direction: row;
+    column-gap: 12px;
+  }
+}

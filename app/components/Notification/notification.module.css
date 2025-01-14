@@ -1,0 +1,52 @@
+.container {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  border-radius: 4px;
+  border: 1px solid var(--color-border);
+  background: var(--color-bg-secondary);
+  position: relative;
+  margin: 16px 0;
+}
+.iconBlock {
+  display: flex;
+  justify-content: center;
+  padding-top: 16px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  background: var(--color-text-neutral);
+}
+.contentBlock {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  padding: 16px 52px 0 12px;
+  background-color: var(--color-smoke);
+}
+.list {
+  margin-top: 8px;
+  line-height: 22.5px;
+  padding-bottom: 20px;
+}
+.ol {
+  counter-reset: myCounter;
+  list-style: none;
+}
+.ol > li::before {
+  content: counter(myCounter) ') ';
+  counter-increment: myCounter;
+}
+.button.button {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  height: 40px;
+  border-color: var(--color-border);
+}
+.closeImage {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  cursor: pointer;
+}
+.buttonWrapper {
+  display: flex;
+  column-gap: 12px;
+}

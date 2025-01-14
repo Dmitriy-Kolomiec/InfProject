@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  align-items: center;
+  column-gap: 6px;
+}
+.container svg {
+  fill: var(--color-text-primary);
+  display: flex;
+}
+.button.button {
+  width: 28px;
+  /* padding: 0 6px; */
+  /* padding: 0; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.arrowIcon.arrowIcon {
+  /* padding-top: 5px; */
+}
+.button svg {
+  transition: fill ease-in-out 0.3s;
+}
+.button:hover svg {
+  fill: var(--color-primary-hover);
+}
+.iconOpenCategory svg {
+  transform: rotate(-90deg);
+  transition: transform 0.3s ease;
+}
+.open svg {
+  transform: rotate(0);
+}

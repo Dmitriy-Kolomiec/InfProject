@@ -1,0 +1,55 @@
+.table {
+  margin-top: 24px;
+}
+.price {
+  text-align: end;
+  min-width: 95px;
+}
+.summ {
+  font-weight: 600;
+}
+.neutralText {
+  font-size: 12px;
+  color: var(--color-text-neutral);
+}
+.link {
+  color: var(--colot-text-primary);
+  transition: color ease-in-out 0.3s;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.link:hover {
+  color: var(--color-primary-hover);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.selectTitle {
+  color: var(--color-text-neutral);
+  margin-right: 8px;
+}
+.labelSelect {
+  color: var(--color-text-neutral);
+  margin-right: 8px;
+}
+.cellName {
+  vertical-align: top;
+}
+.cartButton.cartButton {
+  height: 32px;
+}
+
+.pagination.pagination {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.select {
+  /* position: absolute; */
+  /* bottom: 18px; */
+  /* right: 22px; */
+}
+.labelSelect {
+  color: var(--color-text-neutral);
+  margin-right: 8px;
+}

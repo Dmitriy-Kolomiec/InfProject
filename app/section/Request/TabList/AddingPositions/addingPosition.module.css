@@ -1,0 +1,79 @@
+.addPositionTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+}
+.id {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  column-gap: 12px;
+  margin-top: 24px;
+}
+.button {
+  height: 40px;
+}
+.buttonDelete.buttonDelete {
+  background: transparent !important;
+}
+.buttonFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+.buttonFooter button:last-child svg {
+  fill: #ffffff;
+}
+/* TODO */
+.notDataTable {
+  min-height: 442px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.notDataTable div {
+  text-align: center;
+  max-width: 434px;
+}
+
+.text {
+  margin-top: 8px;
+}
+.buttons {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 24px;
+}
+.buttonFooter .disabledIcon.disabledIcon svg {
+  fill: rgba(0, 0, 0, 0.25);
+}
+.buttonFooter .disabledIcon:hover svg {
+  fill: #ffffff;
+}
+
+@media screen and (max-width: 770px) {
+  .topPageButtons {
+    flex-direction: column;
+    row-gap: 12px;
+    align-items: flex-end;
+  }
+  .title {
+    display: flex;
+    align-items: center;
+  }
+}

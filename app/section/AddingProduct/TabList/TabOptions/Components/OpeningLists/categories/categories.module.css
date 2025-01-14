@@ -1,0 +1,61 @@
+.parameter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.titleParameter {
+  cursor: pointer;
+  display: flex;
+  column-gap: 4px;
+  align-items: center;
+}
+.titleParameter span {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color-neutral-secondary);
+}
+.arrowIcon {
+  transition: ease-in-out 0.3s;
+}
+.arrowIconOpen {
+  transform: rotate(180deg);
+}
+.addButton.addButton {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+  padding: 8px;
+  border-color: var(--color-primary);
+}
+.addButton svg {
+  fill: var(--color-text-primary);
+  transition: fill 0.3s;
+}
+.addButton:hover svg {
+  fill: var(--color-primary-hover);
+}
+.openList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flexContainer {
+  display: flex;
+  align-items: center;
+}
+.interactionButton {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+.interactionButton button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+}

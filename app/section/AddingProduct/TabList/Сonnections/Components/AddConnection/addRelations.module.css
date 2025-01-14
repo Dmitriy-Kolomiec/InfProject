@@ -1,0 +1,83 @@
+.container {
+  position: relative;
+}
+.closeIcon.closeIcon {
+  position: absolute;
+  top: 10px;
+  right: 16px;
+  padding: 0;
+}
+.content {
+  margin-top: 16px;
+  padding-right: 76px;
+}
+.title {
+  margin-bottom: 16px;
+}
+.titleSelect {
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--color-text-primary);
+}
+.optGroupTitle {
+  color: var(--color-text-primary);
+  font-weight: 600;
+  font-size: 15px;
+}
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 40px;
+  column-gap: 8px;
+  align-items: center;
+}
+.addRelationsButton.addRelationsButton {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+.addRelationsButton svg {
+  fill: var(--color-text-primary);
+}
+
+.addingRelatedProduct {
+  padding: 24px 16px;
+  margin: 16px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonDelete.buttonDelete {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 13px;
+  padding: 0;
+  border: 1px solid var(--color-border);
+}
+.buttonWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+.addCharacteristicButton.addCharacteristicButton {
+  display: flex;
+  column-gap: 8px;
+  border: 1px solid var(--color-border);
+  margin-bottom: 8px;
+}
+.addCharacteristicButton svg {
+  fill: var(--color-text-primary);
+  transition: fill ease-in-out 0.3s;
+}
+.addCharacteristicButton:hover svg {
+  fill: var(--color-primary-hover);
+}
+.valueRelations {
+  font-weight: 600;
+  margin: 8px;
+}
+.valueCount {
+  color: var(--color-neutral-secondary);
+  margin-left: 4px;
+}

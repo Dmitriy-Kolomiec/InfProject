@@ -1,0 +1,34 @@
+.counterContainer {
+  width: 125px;
+  height: 34px;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  padding: 7px 8px;
+  color: var(--color-text-primary);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff;
+}
+.button.button {
+  margin: 0;
+  border: none;
+  background: none;
+  box-shadow: none;
+  padding: 0;
+  height: 20px;
+  width: 20px;
+}
+.button svg {
+  fill: var(--color-text-primary);
+}
+.input.input {
+  padding: 0 2px;
+  height: 25px;
+  border: none;
+  margin: 0 5px;
+  background-color: transparent;
+}
+.input:focus {
+  box-shadow: none !important;
+}

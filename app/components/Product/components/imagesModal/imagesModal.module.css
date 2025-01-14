@@ -1,0 +1,25 @@
+.modal {
+  height: 732px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+.properties {
+  display: flex;
+  column-gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 8px;
+}
+
+.property {
+  display: flex;
+  align-items: center;
+  min-height: 24px;
+  border-radius: 16px;
+  border: 1px solid var(--color-border);
+  padding: 4px 8px;
+  column-gap: 4px;
+  font-weight: 500;
+  font-size: 13px;
+}

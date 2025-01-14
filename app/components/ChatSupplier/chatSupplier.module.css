@@ -1,0 +1,46 @@
+.form.form {
+  max-width: 420px;
+  border-radius: 8px;
+  background: #ffffff;
+  margin-top: 20px;
+  padding: 20px 16px 16px;
+}
+.buttonWrapper {
+  display: flex;
+  column-gap: 16px;
+  align-items: center;
+  justify-content: space-between;
+}
+.button {
+  width: 186px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fileList {
+  height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  margin-bottom: 16px;
+  padding: 0;
+  padding-left: 10px;
+}
+.nameFile {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+.removeBtn {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  margin: 0;
+}

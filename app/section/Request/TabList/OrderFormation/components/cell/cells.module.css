@@ -1,0 +1,32 @@
+.buttonActions {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 4px;
+  align-items: center;
+}
+.cartButton.cartButton,
+.refreshButton.refreshButton {
+  height: 34px;
+  border-color: var(--color-border);
+  column-gap: 0;
+}
+
+.refreshButton.refreshButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  padding: 0;
+}
+
+.countInCart {
+  display: flex;
+  flex-direction: column;
+  padding-right: 10px;
+  text-align: end;
+}
+.neutralColor {
+  margin-top: 4px;
+  font-size: 12px;
+  color: var(--color-text-neutral);
+}

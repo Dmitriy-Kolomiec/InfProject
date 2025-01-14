@@ -1,0 +1,52 @@
+.container {
+  margin-top: 16px;
+}
+.interactionTableCell.interactionTableCell {
+  height: 25px;
+  width: 25px;
+  padding: 0;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.interactionTableCell svg {
+  fill: var(--color-text-primary);
+}
+.buttonPartnumber.buttonPartnumber {
+  padding: 0;
+  text-decoration: underline;
+  user-select: text;
+}
+.notIndicated {
+  color: var(--color-neutral-secondary);
+}
+.buttonDropdown.buttonDropdown {
+  color: var(--color-primary);
+}
+.select.select {
+  font-weight: 400;
+  width: 100%;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.select .ant-select-selector {
+  border: none !important;
+}
+.saveButton.saveButton {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+}
+.dropdown {
+  cursor: pointer;
+}
+.tagValue.tagValue {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  border-radius: 8px;
+  margin-top: 5px;
+}

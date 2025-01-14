@@ -1,0 +1,9 @@
+.skeletons {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 8px;
+}
+.skeleton {
+  width: 200px !important;
+}

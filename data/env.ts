@@ -1,0 +1,3 @@
+export const API_SERVER_URL = process.env.NEXT_PUBLIC_API_SERVER_URL;
+export const API_SERVER_AUTH = process.env.NEXT_PUBLIC_API_AUTH_SERVER_URL;
+export const API_SERVER_FILES = process.env.NEXT_PUBLIC_API_STATIC_SERVER_URL;

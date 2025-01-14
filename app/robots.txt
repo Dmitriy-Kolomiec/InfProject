@@ -1,0 +1,6 @@
+User-Agent: *
+Allow: /
+Disallow: /admin
+Disallow: /seller
+
+Sitemap: https://inf.market/sitemap.xml

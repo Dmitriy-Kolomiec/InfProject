@@ -1,0 +1,48 @@
+.container {
+  height: 500px;
+  max-height: 598px;
+}
+.form.form {
+  margin-top: 16px;
+  max-width: 420px;
+}
+.itemSelect svg {
+  margin-right: 8px;
+  fill: var(--color-text-primary);
+  transition: fill ease-in-out 0.3s;
+}
+.itemSelect:hover svg {
+  fill: var(--color-primary-hover);
+}
+.buttonWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 12px;
+  height: 40px;
+  margin: 16px 0;
+}
+.buttonWrapper .button {
+  border-radius: 4px;
+  width: 147px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button svg {
+  fill: #ffffff;
+}
+.saveButton.saveButton {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+}
+.disabledIcon.disabledIcon svg {
+  fill: rgba(0, 0, 0, 0.25);
+}
+.disabledIcon:hover svg {
+  fill: #ffffff;
+}

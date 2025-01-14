@@ -1,0 +1,23 @@
+.form.form {
+  max-width: 420px;
+  border-radius: 8px;
+  background: #ffffff;
+  margin-top: 20px;
+  padding: 20px 16px 16px;
+}
+.rating {
+  display: flex;
+}
+.ratingText {
+  margin-top: 10px;
+  margin-left: 16px;
+  font-size: 13px;
+  color: var(--color-neutral-secondary);
+  line-height: 1.5;
+}
+.button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

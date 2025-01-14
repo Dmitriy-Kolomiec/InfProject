@@ -1,0 +1,11 @@
+.pageContent {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 16px;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

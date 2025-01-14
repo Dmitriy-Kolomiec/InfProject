@@ -1,0 +1,38 @@
+.container {
+  margin-top: 16px;
+}
+.title {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.flexContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.titleRender {
+  font-size: 13px;
+  color: var(--color-text-neutral);
+  width: 100%;
+}
+.value {
+  font-size: 15px;
+  color: var(--color-text-primary);
+}
+.button.button {
+  height: 35px;
+  width: 35px;
+  padding: 0 8px;
+  margin-left: 8px;
+}
+.button svg {
+  fill: var(--color-text-primary);
+}
+.progress {
+  height: 100%;
+  margin: 4px 0 0 4px;
+}
+.lastTreeNode {
+  text-decoration: underline;
+}

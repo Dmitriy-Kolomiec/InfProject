@@ -1,0 +1,55 @@
+.container {
+  margin-top: 16px;
+}
+.nameProduct {
+  color: var(--color-text-primary);
+  position: relative;
+  text-decoration: underline dotted;
+  text-underline-offset: 5px;
+  transition: ease-in-out 0.3s;
+}
+.nameProduct:hover {
+  color: var(--color-primary-hover);
+  text-decoration: underline dotted var(--color-primary-hover);
+}
+.neutralColor {
+  margin-top: 4px;
+  font-size: 12px;
+  color: var(--color-text-neutral);
+}
+.link {
+  color: var(--color-text-primary);
+  position: relative;
+}
+.link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1px;
+  border-bottom: 1px solid currentColor;
+}
+.neutralText {
+  font-size: 12px;
+  color: var(--color-text-neutral);
+}
+.priceCell {
+  min-width: 110px;
+}
+.price {
+  text-align: end;
+}
+.summ {
+  font-weight: 600;
+  text-align: end;
+}
+.applicationPcs {
+  text-align: end;
+}
+.deleteButton.deleteButton {
+  border: none;
+  box-shadow: none;
+  padding: 7.5px 10px;
+  background-color: transparent;
+}

@@ -1,0 +1,15 @@
+.container {
+  margin-bottom: 24px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 320px);
+  column-gap: 16px;
+  row-gap: 16px;
+  margin-top: 0;
+}

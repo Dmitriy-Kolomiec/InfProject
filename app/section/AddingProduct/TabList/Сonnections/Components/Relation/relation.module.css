@@ -1,0 +1,36 @@
+.relations {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.titleRelations {
+  font-weight: 600;
+}
+.titleRalation:not(:last-child)::after {
+  content: '•';
+  margin: 6px 4px 0 4px;
+}
+.addButton.addButton {
+  padding: 0;
+}
+.addButton svg {
+  transition: fill 0.3s;
+}
+.addButton:hover svg {
+  fill: var(--color-primary-hover) !important;
+}
+
+.titleRelations {
+  display: flex;
+  column-gap: 4px;
+  align-items: center;
+}
+.arrowIcon {
+  transition: ease-in-out 0.3s;
+}
+.arrowIconOpen {
+  transform: rotate(180deg);
+}
+.buttonDropdown.buttonDropdown {
+  color: var(--color-primary);
+}

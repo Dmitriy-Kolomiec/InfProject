@@ -1,0 +1,10 @@
+.pageContainer {
+  margin: 0 auto;
+  padding: 0 32px;
+  height: 100%;
+  max-width: 1440px;
+  width: 100%;
+}
+.large {
+  max-width: 1817px;
+}

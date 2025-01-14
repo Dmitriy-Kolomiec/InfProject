@@ -1,0 +1,44 @@
+.container {
+  border: 1px solid var(--color-primary);
+  margin-top: 24px;
+  padding: 16px;
+  padding-bottom: 0;
+  border-radius: 8px;
+}
+.table {
+  margin: 16px 0 16px 0;
+}
+.price {
+  text-align: end;
+  min-width: 92px;
+}
+.summ {
+  font-weight: 600;
+}
+.neutralText {
+  font-size: 12px;
+  color: var(--color-text-neutral);
+}
+.manufacture {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+.manufacture span {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.stockCell {
+  display: flex;
+  flex-direction: column;
+}
+.stockCell span:last-child {
+  color: var(--color-text-neutral);
+  font-size: 12px;
+}
+.relevance {
+  min-width: 85px;
+}
+.pagination {
+  margin-bottom: 0px !important;
+}

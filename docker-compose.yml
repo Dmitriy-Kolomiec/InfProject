@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  frontend:
+    image: frontend
+    container_name: frontend
+    build:
+      context: .
+      target: production
+    volumes:
+      - ./node_modules:/usr/src/app/node_modules
+      - type: bind
+        source: ./public
+        target: /usr/src/app/public
+    ports:
+      - $PORT:$PORT
+    restart: always
+    env_file: .env

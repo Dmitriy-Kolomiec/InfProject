@@ -1,0 +1,48 @@
+.nameCategory {
+  display: flex;
+}
+.titleCategories:not(:last-child)::after {
+  content: '/';
+  margin: 6px 4px 0 4px;
+}
+.titleCategories {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+.titleCategories:not(:last-child) {
+  color: red;
+}
+.interactionButton {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+.interactionButton button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+}
+/* Modal */
+.buttonWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  column-gap: 16px;
+  margin-top: 16px;
+}
+.subtitle {
+  font-size: 13px;
+  color: var(--color-neutral-secondary);
+  line-height: 1.6;
+}
+.nameCategory {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}

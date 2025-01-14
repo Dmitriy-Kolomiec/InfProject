@@ -1,0 +1,51 @@
+.tag {
+  display: inline-flex;
+  align-items: center;
+  height: 20px;
+  color: var(--color-text-primary) !important;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.tagCanceled {
+  border-color: #f4bf02 !important;
+}
+.tagRejected {
+  border-color: #fa3c30 !important;
+}
+.tagAdmin {
+  border-color: var(--color-primary) !important;
+}
+.tagInProgress {
+  border-color: #265df6 !important;
+}
+.tagCompleted {
+  border-color: #2fc227 !important;
+}
+.tagSend {
+  border-color: #b3b3b3 !important;
+}
+.pagination.pagination {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+.labelSelect {
+  color: var(--color-text-neutral);
+  margin-right: 8px;
+}
+.button.button {
+  border-color: var(--color-border);
+  height: 32px;
+  width: 100%;
+  padding: 0;
+  align-items: center;
+}
+.nameCell {
+  cursor: pointer;
+  padding: 10px;
+  transition: color ease-in-out 0.3s;
+}
+.nameCell:hover {
+  color: var(--color-primary-hover);
+}

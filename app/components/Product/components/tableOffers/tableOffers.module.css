@@ -1,0 +1,70 @@
+.table {
+  margin-top: 40px;
+}
+.titleCol {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.link {
+  color: var(--color-text-primary);
+  position: relative;
+  width: 100%;
+}
+.link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1px;
+  border-bottom: 1px solid currentColor;
+}
+.relevance {
+  display: flex;
+  flex-direction: column;
+  color: var(--color-text-neutral);
+  font-size: 12px;
+}
+.neutralColor {
+  margin-top: 4px;
+  font-size: 12px;
+  color: var(--color-text-neutral);
+}
+.price {
+  text-align: end;
+}
+.summ {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  column-gap: 4px;
+  font-weight: 600;
+}
+.applicationPcs {
+  display: flex;
+  justify-content: flex-end;
+}
+.stockCell {
+  display: flex;
+  flex-direction: column;
+}
+.replaceButton.replaceButton {
+  width: 132px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.replaceButton svg {
+  fill: #ffffff;
+}
+.pagination.pagination {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.labelSelect {
+  color: var(--color-text-neutral);
+  margin-right: 8px;
+}

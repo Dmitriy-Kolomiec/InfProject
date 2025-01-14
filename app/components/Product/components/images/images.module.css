@@ -1,0 +1,65 @@
+.img {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+}
+.mainImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 320px;
+  height: 320px;
+  transition: border-color ease-in-out 2s;
+}
+.mainImg img {
+  border-radius: 8px;
+  border: 3px solid transparent;
+  transition: border-color ease-in-out 0.3s;
+}
+.mainImg:hover img {
+  border-color: var(--color-primary-hover);
+}
+.images {
+  flex-direction: column;
+  display: flex;
+}
+.prevImage {
+  display: flex;
+  height: 72px;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 10px;
+}
+.image {
+  background-color: #f6f8fb;
+  height: 100%;
+  width: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  margin-top: 16px;
+  border: 3px solid transparent;
+  transition: border-color ease-in-out 0.3s;
+}
+.image:hover {
+  border-color: var(--color-primary-hover);
+}
+.openImagesButton.openImagesButton {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  color: var(--color-primary);
+  padding-left: 0;
+  margin-top: 16px;
+}
+.partNumbers {
+  margin: 12px 0 16px 0;
+}
+.ListPartNumbers {
+  margin-top: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 320px;
+  column-gap: 4px;
+  row-gap: 4px;
+}

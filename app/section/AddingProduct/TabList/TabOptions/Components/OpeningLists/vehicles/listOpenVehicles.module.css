@@ -1,0 +1,86 @@
+.parameters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+.titleParameter {
+  color: var(--color-primary);
+}
+.valueList {
+  display: inline-block;
+}
+.value {
+  margin-left: 6px;
+  cursor: pointer;
+  position: relative;
+}
+/* underlining */
+.value::before {
+  position: absolute;
+  content: '';
+  display: inline-block;
+  height: 1px;
+  background: var(--color-text-primary);
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  transform: scaleX(1);
+  transition: transform 0.3s ease;
+}
+.value:hover::before {
+  transform: scaleX(0);
+}
+/* circles */
+.valueItem:not(:last-child)::after {
+  content: '';
+  display: inline-block;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background: var(--color-text-primary);
+  margin: 0 0 3px 6px;
+}
+.interactionButton {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+.interactionButton button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+}
+/* Modal delete */
+.subtitle {
+  font-size: 13px;
+  color: var(--color-neutral-secondary);
+  line-height: 1.6;
+}
+
+.title {
+  font-weight: 600;
+}
+.buttonWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  column-gap: 16px;
+  margin-top: 16px;
+}
+
+/* Modal viewing */
+.titleCharacteristic {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+.identification {
+  margin-top: 16px;
+}
+.link {
+  text-decoration: underline;
+}

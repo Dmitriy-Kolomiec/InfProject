@@ -1,0 +1,72 @@
+.title {
+  margin-bottom: 16px;
+}
+.labelBlock {
+  display: flex;
+  flex-direction: column;
+}
+.labelSubTitle {
+  font-size: 12px;
+  line-height: 1.3;
+  margin-top: 6px;
+}
+.input,
+.select {
+  height: 40px;
+}
+.select svg {
+  margin-right: px;
+  fill: var(--color-text-primary);
+}
+.textArea label {
+  width: 100%;
+}
+.labelTextArea {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.numLetters {
+  color: var(--color-neutral-secondary);
+  font-size: 13px;
+  font-weight: 500;
+}
+.textArea.textArea textarea {
+  min-height: 100px;
+}
+.disabledCount {
+  color: var(--color-primary-hover);
+}
+
+.flexContainer {
+  display: grid;
+  grid-template-columns: 180px 1fr 40px 40px;
+  align-items: center;
+  column-gap: 16px;
+}
+.button.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+  padding: 8px;
+}
+.addButton {
+  border-color: var(--color-primary);
+}
+.button svg {
+  fill: var(--color-text-primary);
+  transition: fill 0.3s;
+}
+.button:hover svg {
+  fill: var(--color-primary-hover);
+}
+.formItem {
+  margin: 0;
+  padding: 0;
+}
+.notification {
+  height: 64px;
+  display: flex;
+  align-items: center;
+}

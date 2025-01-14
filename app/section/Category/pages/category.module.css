@@ -1,0 +1,122 @@
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+}
+.buttonActions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  column-gap: 6px;
+}
+.editLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+}
+.deleteButton.deleteButton {
+  display: flex;
+  align-items: center;
+  padding: 6px;
+  width: 30px;
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+}
+.id {
+  text-align: center;
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.buttonWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 12px;
+  height: 40px;
+}
+.addButton {
+  outline: none;
+  border-radius: 4px;
+  padding: 10px 12px;
+  height: 100%;
+  background: var(--color-primary);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  transition: background-color ease-in-out 0.3s;
+}
+.addButton:hover {
+  background: var(--color-primary-hover);
+  color: white;
+}
+.addButton svg {
+  fill: #ffffff;
+}
+
+.button.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button svg {
+  transition: fill ease-in-out 0.3s;
+}
+.button:hover svg {
+  fill: var(--color-primary-hover);
+}
+.button span {
+  margin-left: 4px;
+}
+
+.dropdown {
+  cursor: pointer;
+  transform: rotate(90deg);
+}
+.notProducts {
+  min-height: 500px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.notProducts div {
+  text-align: center;
+  max-width: 421px;
+}
+.text {
+  margin-top: 8px;
+}
+.addValueButton {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+.addValueButton button {
+  display: flex;
+  column-gap: 8px;
+  align-items: center;
+}
+.buttonDropdown.buttonDropdown {
+  color: #ff3f33;
+}
+.buttonSave {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+/* Pagination */
+.pagination.pagination {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+.labelSelect {
+  color: var(--color-text-neutral);
+  margin-right: 8px;
+}

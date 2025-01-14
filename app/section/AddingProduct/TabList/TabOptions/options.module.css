@@ -1,0 +1,20 @@
+.buttonWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+.rightBlockBtn {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+}
+.button svg {
+  transition: fill 0.3s;
+}
+.button:hover svg {
+  fill: var(--color-primary-hover);
+}
+.button.button svg {
+  fill: #ffffff;
+}

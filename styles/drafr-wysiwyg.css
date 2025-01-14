@@ -1,0 +1,109 @@
+/* react-draft-wysiwyg */
+.rdw-option-wrapper {
+  border: none !important;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+/* Modal add link and image */
+
+.rdw-link-modal,
+.rdw-image-modal {
+  width: 300px !important;
+}
+.rdw-link-modal-input {
+  height: 40px !important;
+  width: 100% !important;
+  border-radius: 4px !important;
+  padding: 0px 8px !important;
+  margin: 2px 0 12px 0 !important;
+  outline: none !important;
+  border: 1px solid var(--color-border) !important;
+  transition: border-color ease-in-out 0.3s;
+}
+.rdw-link-modal-buttonsection,
+.rdw-image-modal-btn-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 12px;
+  align-items: center;
+}
+.rdw-link-modal-buttonsection button,
+.rdw-image-modal-btn-section button {
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+  column-gap: 4px;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  color: var(--color-text-primary);
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+.rdw-link-modal-buttonsection button:first-child,
+.rdw-image-modal-btn-section button:first-child {
+  background: var(--color-primary);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  border-radius: 4px;
+  padding: 10px 12px;
+}
+
+.rdw-link-modal-buttonsection button:first-child:hover,
+.rdw-image-modal-btn-section button:first-child:hover {
+  background: var(--color-primary-hover) !important;
+  color: white !important;
+}
+.rdw-link-modal-buttonsection button:last-child:hover,
+.rdw-image-modal-btn-section button:last-child:hover {
+  border: none;
+  box-shadow: none;
+  color: var(--color-primary-hover);
+}
+
+/* image  */
+.rdw-image-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rdw-image-modal-header-label-highlighted {
+  border-bottom-color: var(--color-primary) !important;
+}
+.rdw-image-modal-size-input {
+  height: 40px !important;
+  padding: 5px;
+  font-size: 15px !important;
+}
+/* placeholder */
+.public-DraftEditorPlaceholder-inner {
+  line-height: 1.3;
+}
+/* Checkbox */
+.rdw-link-modal-target-option {
+  display: none;
+}
+/* viewing text  */
+.public-DraftStyleDefault-block span {
+  line-height: 1.3;
+}
+.editor-description ol li {
+  list-style: decimal;
+}
+.editor-description ul li {
+  list-style: inside;
+}
+
+/* hover toolbar */
+.rdw-option-wrapper:hover,
+.rdw-option-active {
+  box-shadow: none !important;
+}

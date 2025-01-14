@@ -1,0 +1,50 @@
+.filter {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+  height: 40px;
+}
+.select {
+  height: 100%;
+  font-weight: 400 !important;
+}
+.text {
+  font-weight: 500;
+  line-height: 1.35;
+}
+.button.button {
+  width: 116px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-color: var(--color-border);
+}
+.textButton {
+  margin-right: 10px;
+}
+.countFilter {
+  padding: 0 3px;
+  margin-left: 8px;
+  min-width: 24px;
+  height: 25px;
+  border-radius: 16px;
+  border: 1px solid var(--color-border);
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  background-color: var(--color-bg-neutral);
+  color: var(--color-text-primary) !important;
+}
+/* .buttonRefresh {
+  display: flex;
+  align-items: center;
+  border: none;
+  box-shadow: none;
+} */
+
+/* #3f70f8  made with the help https://codepen.io/sosuke/pen/Pjoqqp */
+/* .buttonRefresh:hover img {
+  filter: invert(41%) sepia(57%) saturate(6438%) hue-rotate(344deg)
+    brightness(100%) contrast(97%);
+} */

@@ -1,0 +1,45 @@
+.form {
+  /* margin-top: 16px; */
+  width: 100%;
+}
+.container {
+  position: relative;
+}
+.closeIcon.closeIcon {
+  position: absolute;
+  top: 10px;
+  right: 16px;
+  padding: 0;
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Button */
+.buttonWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.rightBlockBtn {
+  display: flex;
+  column-gap: 12px;
+}
+.button svg {
+  transition: fill 0.3s;
+}
+.button:hover svg {
+  fill: var(--color-primary-hover);
+}
+.titleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.notification {
+  margin-top: 40px;
+}

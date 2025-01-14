@@ -1,0 +1,69 @@
+.loader {
+  text-align: center;
+  margin-top: 30px;
+}
+.form.form {
+  max-width: 528px;
+  display: flex;
+  flex-direction: column;
+}
+.flexContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  margin-bottom: 16px;
+}
+.inputNumber {
+  width: 100%;
+  height: 40px;
+  border-radius: 6px;
+  border-color: #d9d9d9;
+  border: 1px solid var(--color-border);
+  padding: 4px 11px;
+  outline: none;
+}
+.inputNumber:focus {
+  border-color: #ff6a59;
+}
+.submitButton.submitButton {
+  max-width: 285px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+}
+/* Table */
+.manufacture {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+.manufacture span {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.stockCell {
+  display: flex;
+  flex-direction: column;
+}
+.stockCell span:last-child {
+  color: var(--color-text-neutral);
+  font-size: 12px;
+}
+.activeCell {
+  display: flex;
+  justify-content: center;
+}
+.price {
+  text-align: end;
+  min-width: 95px;
+}
+.neutralText {
+  font-size: 12px;
+  color: var(--color-text-neutral);
+}
+.notData {
+  margin: 20px 0;
+  font-size: 16px;
+  color: var(--color-text-neutral);
+}

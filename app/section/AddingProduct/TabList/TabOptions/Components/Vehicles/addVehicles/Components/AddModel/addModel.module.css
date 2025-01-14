@@ -1,0 +1,40 @@
+.addModel {
+  position: relative;
+  border-radius: 8px;
+  padding-right: 76px;
+  background-color: #f6f8fb;
+  margin-bottom: 20px;
+}
+.flexContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 16px;
+  align-items: center;
+}
+.label {
+  display: grid;
+  grid-template-columns: 1fr 10px;
+}
+.buttonDeleteModel.buttonDeleteModel {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.itemSelect svg {
+  margin-right: 8px;
+  fill: var(--color-text-primary);
+  transition: fill ease-in-out 0.3s;
+}
+.itemSelect:hover svg {
+  fill: var(--color-primary-hover);
+}
+@media screen and (max-width: 1460px) {
+  .flexContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .formItem {
+    width: 100%;
+  }
+}

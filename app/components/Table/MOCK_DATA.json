@@ -1,0 +1,73 @@
+[
+  {
+    "rowKey": 1,
+    "id": 11,
+    "name": "Болт колеса КАМАЗ",
+    "partNumber": "3104008-11",
+    "manufacture": { "name": "Оригинал", "id": 1111 },
+    "provider": {
+      "name": "Авто-ленд",
+      "id": 2001
+    },
+    "numStock": 10500,
+    "stock": "Иркутск",
+    "price": 27049,
+    "applicationPcs": 14,
+    "hasNds": true,
+    "rating": 4,
+    "analogs": []
+  },
+  {
+    "rowKey": 2,
+    "id": 22,
+    "name": "Лобовое стекло",
+    "partNumber": "4320ЯМ-1800015",
+    "manufacture": { "name": "Оригинал", "id": 1111 },
+    "provider": {
+      "name": "Авто-трейд",
+      "id": 2002
+    },
+    "numStock": 55,
+    "stock": "Новосибирск",
+    "price": 10500,
+    "applicationPcs": 2,
+    "hasNds": false,
+    "rating": 5,
+    "analogs": [
+      {
+        "rowKey": 44,
+        "id": 4444,
+        "name": "Лобовое стекло КАМАЗ",
+        "partNumber": "3104008-89",
+        "manufacture": { "name": "КИТАЙ", "id": 44441 },
+        "provider": {
+          "name": "Авто-пульс",
+          "id": 20024
+        },
+        "numStock": 120,
+        "stock": "Москва",
+        "price": 9788,
+        "applicationPcs": 2,
+        "hasNds": false,
+        "rating": 5
+      },
+      {
+        "rowKey": 55,
+        "id": 5555,
+        "name": "Лобовое стекло КРАЗ",
+        "partNumber": "3104008-98",
+        "manufacture": { "name": "SATA", "id": 44442 },
+        "provider": {
+          "name": "Авто-альянс",
+          "id": 20025
+        },
+        "numStock": 5,
+        "stock": "Москва",
+        "price": 12850,
+        "applicationPcs": 3,
+        "hasNds": true,
+        "rating": 3
+      }
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title {
+  margin-bottom: 5px;
+}
+.buttonDelete.buttonDelete {
+  background: transparent !important;
+}
+.buttonWraper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.loader {
+  display: flex;
+  justify-content: center;
+  height: 120px;
+  margin-top: 50px;
+}
+.noDataFinished {
+  margin-bottom: 50px;
+}

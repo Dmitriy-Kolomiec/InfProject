@@ -1,0 +1,41 @@
+.container {
+  height: 480px;
+  overflow-y: auto;
+}
+.titleTree {
+  margin-bottom: 4px;
+}
+.flexContainer {
+  min-width: 200px;
+  display: flex;
+  margin-top: 2px;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 4px;
+  padding: 5px;
+}
+.titleRender {
+  display: flex;
+  column-gap: 4px;
+}
+.title {
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+}
+.count {
+  height: 100%;
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--color-text-neutral);
+  text-decoration: none !important;
+}
+.row:hover .interactiveButtons {
+  visibility: visible;
+}
+.row:hover {
+  background-color: var(--color-bg-hover);
+}

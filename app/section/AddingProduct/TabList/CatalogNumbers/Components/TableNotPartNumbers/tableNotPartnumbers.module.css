@@ -1,0 +1,33 @@
+.container {
+  margin-top: 16px;
+}
+.interactionTableCell svg {
+  fill: var(--color-text-primary);
+}
+.partnumber {
+  color: var(--color-text-neutral);
+}
+.notIndicated {
+  color: var(--color-neutral-secondary);
+}
+.buttonDropdown.buttonDropdown {
+  color: var(--color-primary);
+}
+.select.select {
+  font-weight: 400;
+  width: 100%;
+}
+.select div {
+  padding: 0 !important;
+}
+.dropdownButton {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  height: 40px;
+}
+.loader {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}

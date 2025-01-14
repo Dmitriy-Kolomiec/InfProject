@@ -1,0 +1,75 @@
+.container {
+  margin: 16px 0;
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.name {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 4px;
+  color: var(--color-primary);
+  position: relative;
+}
+
+/* underlining */
+.name::before {
+  position: absolute;
+  content: '';
+  display: inline-block;
+  height: 1px;
+  background: var(--color-primary);
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  transform: scaleX(1);
+  transition: transform 0.3s ease;
+}
+.name:hover::before {
+  transform: scaleX(0);
+}
+.icons {
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+}
+.icons button {
+  padding: 0;
+}
+.type {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  height: 24px;
+}
+.type svg {
+  fill: var(--color-texp-primary);
+}
+.relations {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+  margin-top: 4px;
+}
+.characteristics span {
+  height: 24px;
+}
+.titleRalation:not(:last-child)::after {
+  content: '/';
+  margin: 6px 4px 0 4px;
+}
+.buttonWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  column-gap: 16px;
+  margin-top: 16px;
+}
+.titleAboutProduct {
+  font-weight: 600;
+}

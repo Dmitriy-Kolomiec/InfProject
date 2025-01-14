@@ -1,0 +1,38 @@
+.table {
+  margin-top: 16px;
+}
+.price {
+  text-align: end;
+}
+.summ {
+  font-weight: 600;
+}
+.neutralText {
+  font-size: 12px;
+  color: var(--color-text-neutral);
+}
+.cartButton.cartButton {
+  height: 32px;
+  border-color: var(--color-border);
+}
+.manufacture {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+.manufacture span {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.stockCell {
+  display: flex;
+  flex-direction: column;
+}
+.stockCell span:last-child {
+  color: var(--color-text-neutral);
+  font-size: 12px;
+}
+.activeCell {
+  display: flex;
+  justify-content: center;
+}

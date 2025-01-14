@@ -1,0 +1,21 @@
+.container {
+  height: 480px;
+  overflow-y: auto;
+}
+.title {
+  margin-bottom: 4px;
+}
+.item {
+  height: 28px;
+  margin: 2px 0px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  padding: 4px;
+}
+.item:hover {
+  background-color: var(--color-bg-neutral);
+}
+.active {
+  background-color: var(--color-bg-neutral);
+}

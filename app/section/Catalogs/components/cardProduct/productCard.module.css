@@ -1,0 +1,33 @@
+.container {
+  cursor: pointer;
+  width: 345px;
+  min-height: 345px;
+  padding: 16px;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  color: var(--colot-text-primary);
+  transition: background-color ease-in-out 0.3s;
+}
+.name {
+  transition: color ease-in-out 0.3s;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.container:hover .name {
+  color: var(--color-primary-hover);
+}
+.container:hover {
+  background-color: #fff3f2;
+}
+.image {
+  width: 313px;
+  height: 226px;
+  margin: 20px 0;
+  text-align: center;
+}
+.price {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.35;
+  text-align: end;
+}

@@ -1,0 +1,60 @@
+.container {
+  margin-top: 16px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title {
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.buttonWrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 4px;
+}
+.button.button {
+  padding: 0;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.titleSelect {
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--color-text-primary);
+}
+.addCharacteristicButton.addCharacteristicButton {
+  display: flex;
+  column-gap: 8px;
+  border: 1px solid var(--color-border);
+  margin-bottom: 8px;
+}
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 40px;
+  column-gap: 8px;
+  align-items: center;
+}
+.buttonDelete.buttonDelete {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 13px;
+  padding: 0;
+  border: 1px solid var(--color-border);
+}
+.addCharacteristicButton svg {
+  fill: var(--color-text-primary);
+  transition: fill ease-in-out 0.3s;
+}
+.addCharacteristicButton:hover svg {
+  fill: var(--color-primary-hover);
+}
